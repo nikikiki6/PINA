@@ -1,14 +1,10 @@
 # PINA: Prompt Injection Attack against Navigation Agents
 
 
-<p align="center">
-  <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">IEEE Xplore</a> ·
-  <a href="./poster_PINA.pdf">Poster</a> ·
-</p>
 
 <p align="center">
   <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">
-    <img src="https://img.shields.io/badge/IEEE-ICASSP%202026-00629B.svg" alt="IEEE ICASSP 2026">
+    <img src="https://img.shields.io/badge/IEEE-ICASSP%202026-00629B.svg" alt=ICASSP2026 Paper">
   </a>
   <a href="./poster_icassp_jiani_2.pdf">
     <img src="https://img.shields.io/badge/Poster-PDF-D32F2F.svg" alt="Poster PDF">
