@@ -4,24 +4,13 @@
 
 <p align="center">
   <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">
-    <img src="https://img.shields.io/badge/IEEE-ICASSP%202026-00629B.svg" alt=ICASSP2026 Paper">
+    <img src="https://img.shields.io/badge/Paper-ICASSP%202026-00629B.svg" alt=ICASSP2026 Paper">
   </a>
   <a href="./poster_icassp_jiani_2.pdf">
     <img src="https://img.shields.io/badge/Poster-PDF-D32F2F.svg" alt="Poster PDF">
   </a>
 </p>
 
-<p align="center">
-  <a href="#abstract">Abstract</a> ·
-  <a href="#method">Method</a> ·
-  <a href="#poster">Poster</a> ·
-  <a href="#repository-structure">Repository Structure</a> ·
-  <a href="#code-and-reproducibility">Code</a> ·
-  <a href="#citation">Citation</a>
-</p>
-
-> **Publication:** IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), 2026.  
-> **Code:** The implementation is being prepared and will be released in the `code/` directory.
 
 ## Abstract
 
@@ -58,7 +47,7 @@ The ICASSP 2026 presentation poster is available here:
 ```text
 PINA/
 ├── code/                 # Implementation, to be released
-├── poster_icassp_jiani_2.pdf  # ICASSP 2026 presentation poster
+├── poster_PINA.pdf  # ICASSP 2026 presentation poster
 ├── README.md             # Project overview and usage guide
 └── LICENSE               # License file (to be added)
 ```
