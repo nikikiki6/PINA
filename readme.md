@@ -11,16 +11,10 @@
   </a>
 </p>
 
-
-## Abstract
-
 Navigation agents powered by large language models (LLMs) convert natural-language instructions into executable plans and actions. Compared with text-based applications, the security stakes are substantially higher: a successful prompt injection attack can misguide physical navigation, leading to unsafe routes, mission failure, or real-world harm.
-
 Despite this setting, the vulnerability of navigation agents to prompt injection remains largely unexplored. In this paper, we propose **PINA**, an adaptive prompt optimization framework designed for navigation agents under black-box, long-context, and action-executable constraints. Experiments on indoor and outdoor navigation agents show that PINA achieves a high attack success rate (ASR), with an average ASR of **87.5%**, surpassing all baselines and remaining robust under ablation and adaptive-attack conditions.
-
 This work presents a systematic investigation of prompt injection attacks in navigation and highlights their security implications for embodied LLM agents.
 
-## Method
 
 <p align="center">
   <img width="747" alt="Overview of the PINA framework" src="https://github.com/user-attachments/assets/cb2764b3-7951-433d-bfc4-50c9d7601d65" />
@@ -42,7 +36,10 @@ The ICASSP 2026 presentation poster is available here:
   <a href="./poster_icassp_jiani_2.pdf"><strong>View or download the PINA poster (PDF)</strong></a>
 </p>
 
-## Repository Structure
+
+## Code and Reproducibility
+
+The implementation is under preparation. Its release will include:
 
 ```text
 PINA/
@@ -51,17 +48,6 @@ PINA/
 ├── README.md             # Project overview and usage guide
 └── LICENSE               # License file (to be added)
 ```
-
-The `code/` directory is intentionally left empty for now. Implementation files, environment requirements, and reproduction commands will be added there when the code is released.
-
-## Code and Reproducibility
-
-The implementation is under preparation. Its release will include:
-
-- the PINA implementation;
-- evaluation pipelines for supported navigation agents;
-- configuration files and dependency instructions;
-- commands for reproducing the reported experiments.
 
 ## Citation
 
