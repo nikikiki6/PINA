@@ -2,16 +2,11 @@
 
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2601.13612">arXiv</a> ·
   <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">IEEE Xplore</a> ·
   <a href="./poster_PINA.pdf">Poster</a> ·
-  <a href="#citation">BibTeX</a>
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2601.13612">
-    <img src="https://img.shields.io/badge/arXiv-2601.13612-b31b1b.svg" alt="arXiv">
-  </a>
   <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">
     <img src="https://img.shields.io/badge/IEEE-ICASSP%202026-00629B.svg" alt="IEEE ICASSP 2026">
   </a>
@@ -88,14 +83,16 @@ The implementation is under preparation. Its release will include:
 If you find this work useful, please cite it as follows:
 
 ```bibtex
-@inproceedings{liu2026pina,
-  title     = {PINA: Prompt Injection Attack against Navigation Agents},
-  author    = {Liu, Jiani and He, Yixin and Fan, Lanlan and Zhong, Qidi and
-               Cheng, Yushi and Zhang, Meng and Chen, Yanjiao and Xu, Wenyuan},
-  booktitle = {2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
-  year      = {2026},
-  doi       = {10.1109/ICASSP55912.2026.11462407}
-}
+@inproceedings{Liu_2026,
+   title={PINA: Prompt Injection Attack Against Navigation Agents},
+   url={http://dx.doi.org/10.1109/ICASSP55912.2026.11462407},
+   DOI={10.1109/icassp55912.2026.11462407},
+   booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+   publisher={IEEE},
+   author={Liu, Jiani and He, Yixin and Fan, Lanlan and Zhong, Qidi and Cheng, Yushi and Zhang, Meng and Chen, Yanjiao and Xu, Wenyuan},
+   year={2026},
+   month=May, pages={13897–13901} 
+   }
 ```
 
 ## Contact
