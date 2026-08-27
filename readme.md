@@ -6,7 +6,7 @@
   <a href="https://doi.org/10.1109/ICASSP55912.2026.11462407">
     <img src="https://img.shields.io/badge/Paper-ICASSP%202026-00629B.svg" alt=ICASSP2026 Paper">
   </a>
-  <a href="./poster_icassp_jiani_2.pdf">
+  <a href="./poster_PINA.pdf">
     <img src="https://img.shields.io/badge/Poster-PDF-D32F2F.svg" alt="Poster PDF">
   </a>
 </p>
@@ -27,14 +27,6 @@ PINA combines three components in an adaptive optimization loop:
 3. **Adaptive Refinement** — iteratively updates injection prompts according to the analysis results.
 
 Together, these components enable effective black-box prompt injection attacks against navigation agents.
-
-## Poster
-
-The ICASSP 2026 presentation poster is available here:
-
-<p align="center">
-  <a href="./poster_icassp_jiani_2.pdf"><strong>View or download the PINA poster (PDF)</strong></a>
-</p>
 
 
 ## Code and Reproducibility
@@ -66,6 +58,3 @@ If you find this work useful, please cite it as follows:
    }
 ```
 
-## Contact
-
-For questions, feedback, or collaboration inquiries, please open an [issue](../../issues) in this repository.
