@@ -5,7 +5,7 @@ Yanjiao Chen, and Wenyuan Xu.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.13612-b31b1b)](https://arxiv.org/abs/2601.13612)
 [![ICASSP 2026](https://img.shields.io/badge/IEEE-ICASSP%202026-00629B)](https://doi.org/10.1109/ICASSP55912.2026.11462407)
-[Poster](poster_PINA.pdf)
+
 
 PINA studies prompt injection against LLM navigation agents. It combines navigation
 metric evaluation, surrogate-model distribution analysis, and iterative feedback
