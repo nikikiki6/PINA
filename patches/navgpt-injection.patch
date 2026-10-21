@@ -1,0 +1,16 @@
+--- a/nav_src/parser.py
++++ b/nav_src/parser.py
+@@ -48,0 +49,2 @@
++    parser.add_argument("--injection_prompt", default="")
++    parser.add_argument("--injection_mode", choices=["none", "instruction", "observation"], default="none")
+--- a/nav_src/agent.py
++++ b/nav_src/agent.py
+@@ -666 +666,2 @@
+-        instructions = [ob['instruction'] for ob in obs]
++        payload = getattr(self.config, 'injection_prompt', '') if getattr(self.config, 'injection_mode', 'none') == 'instruction' else ''
++        instructions = [ob['instruction'] + (' ' + payload if payload else '') for ob in obs]
+--- a/nav_src/env.py
++++ b/nav_src/env.py
+@@ -215 +215 @@
+-                'obs_summary' : feature["summary"],
++                'obs_summary' : feature["summary"] + (' ' + os.environ.get('PINA_OBSERVATION_PAYLOAD', '') if os.environ.get('PINA_OBSERVATION_PAYLOAD', '') else ''),

@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+runs/
+datasets/
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+.DS_Store
+configs/local.json
+
